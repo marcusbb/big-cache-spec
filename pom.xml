@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ies.bigcache</groupId>
+	<artifactId>big-cache-spec</artifactId>
+	<version>0.1</version>
+	<packaging>jar</packaging>
+	<name>big-cache-spec</name>
+	<description>
+	
+	</description>
+	
+	
+	<properties>
+		<skipTests>false</skipTests>
+	</properties>
+	<build>
+		
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>				
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<version>1.0</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+			<scope>provided</scope>
+		</dependency>
+	
+		
+	</dependencies>
+	
+	<!-- Add this into settings -->
+	 <repositories>
+		<repository>
+			<id>main</id>
+			<url>http://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories> 
+	<distributionManagement>
+	    <repository>
+	      <id>staging</id>
+	      <name>Rim Internal Releases</name>
+	      <url>http://upload-maven.rim.net/nexus/service/local/staging/deploy/maven2</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>ies-snapshots</id>
+	      <name>Rim Internal Snapshots</name>
+	      <url>http://upload-maven.rim.net/nexus/content/repositories/ies-snapshots</url>
+	    </snapshotRepository>
+	    <site>
+	      <id>site</id>
+	      <name>Rim Internal Site</name>
+	      <url>dav:http://upload-maven.rim.net/nexus/content/sites/rim-dev-site/ies</url>
+	    </site>
+	 </distributionManagement> 
+	
+	<scm>
+	    <connection>scm:perforce:${env.P4_USERNAME}@perforce02:1668://depot/dev/cardhu/IES/unified-persistence/</connection>
+	    <developerConnection>scm:perforce:${env.P4_USERNAME}@perforce02:1668://depot/dev/cardhu/IES/unified-persistence/</developerConnection>
+	    <url>//depot/dev/cardhu/${env.P4_USERNAME}/IES/unified-persistence/</url>
+	</scm>
+	
+</project>
+
+
