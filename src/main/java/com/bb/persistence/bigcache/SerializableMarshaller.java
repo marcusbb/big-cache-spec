@@ -1,6 +1,6 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
-import provision.persistence.bigcache.Marshaller;
+import com.bb.persistence.bigcache.Marshaller;
 
 
 /**

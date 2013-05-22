@@ -1,4 +1,4 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,12 +13,13 @@ import java.lang.annotation.Target;
  * The parent must also be a valid cached entity {@link CacheEntity} or {@link CacheChildEntity}
  *
  * 
+ * 
  * @author msimonsen
  *
  */
 
 @Retention(value=RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD,ElementType.METHOD})
-public @interface Parent {
+public @interface ParentRef {
 
 }

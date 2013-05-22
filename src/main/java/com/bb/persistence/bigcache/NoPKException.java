@@ -1,4 +1,4 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
 /**
  * No {@link CacheKey} with type {@link CacheKeyType#PRIMARY} has been found.

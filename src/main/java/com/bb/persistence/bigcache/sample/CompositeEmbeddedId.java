@@ -1,6 +1,6 @@
-package provision.persistence.bigcache.sample_usage;
+package com.bb.persistence.bigcache.sample;
 
-import provision.persistence.bigcache.CompositeMember;
+import com.bb.persistence.bigcache.CompositeMember;
 
 
 public class CompositeEmbeddedId {

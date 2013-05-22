@@ -1,4 +1,4 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
 /**
  * Wrap various configuration exceptions, including reflection based

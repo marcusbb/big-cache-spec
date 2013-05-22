@@ -1,12 +1,13 @@
-package provision.persistence.bigcache.sample_usage;
+package com.bb.persistence.bigcache.sample;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import provision.persistence.bigcache.CacheEntity;
-import provision.persistence.bigcache.CacheKey;
-import provision.persistence.bigcache.CacheKeyType;
+import com.bb.persistence.bigcache.CacheEntity;
+import com.bb.persistence.bigcache.CacheKey;
+import com.bb.persistence.bigcache.CacheKeyType;
+
 
 
 

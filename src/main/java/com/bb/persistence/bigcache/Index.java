@@ -1,4 +1,4 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

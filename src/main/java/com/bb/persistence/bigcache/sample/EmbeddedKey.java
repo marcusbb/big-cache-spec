@@ -1,4 +1,4 @@
-package provision.persistence.bigcache.sample_usage;
+package com.bb.persistence.bigcache.sample;
 
 import javax.persistence.Embeddable;
 

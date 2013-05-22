@@ -1,4 +1,4 @@
-package provision.persistence.bigcache.sample_usage;
+package com.bb.persistence.bigcache.sample;
 
 import java.util.List;
 
@@ -7,11 +7,12 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import provision.persistence.bigcache.CacheEntity;
-import provision.persistence.bigcache.CacheKey;
-import provision.persistence.bigcache.CacheKeyType;
-import provision.persistence.bigcache.CacheType;
-import provision.persistence.bigcache.Index;
+import com.bb.persistence.bigcache.CacheEntity;
+import com.bb.persistence.bigcache.CacheKey;
+import com.bb.persistence.bigcache.CacheKeyType;
+import com.bb.persistence.bigcache.CacheType;
+import com.bb.persistence.bigcache.Index;
+
 
 
 

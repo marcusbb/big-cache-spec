@@ -1,4 +1,4 @@
-package provision.persistence.bigcache;
+package com.bb.persistence.bigcache;
 
 /**
  * The type of key that {@link CacheKey} that an Entity {@link CacheEntity}
