@@ -48,37 +48,16 @@
 		
 	</dependencies>
 	
-	<!-- Add this into settings -->
-	 <repositories>
-		<repository>
-			<id>main</id>
-			<url>http://repo1.maven.org/maven2/</url>
-		</repository>
-	</repositories> 
+	 
+	<!-- TBD
 	<distributionManagement>
-	    <repository>
-	      <id>staging</id>
-	      <name>Rim Internal Releases</name>
-	      <url>http://upload-maven.rim.net/nexus/service/local/staging/deploy/maven2</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>ies-snapshots</id>
-	      <name>Rim Internal Snapshots</name>
-	      <url>http://upload-maven.rim.net/nexus/content/repositories/ies-snapshots</url>
-	    </snapshotRepository>
-	    <site>
-	      <id>site</id>
-	      <name>Rim Internal Site</name>
-	      <url>dav:http://upload-maven.rim.net/nexus/content/sites/rim-dev-site/ies</url>
-	    </site>
+	   
 	 </distributionManagement> 
 	
 	<scm>
-	    <connection>scm:perforce:${env.P4_USERNAME}@perforce02:1668://depot/dev/cardhu/IES/unified-persistence/</connection>
-	    <developerConnection>scm:perforce:${env.P4_USERNAME}@perforce02:1668://depot/dev/cardhu/IES/unified-persistence/</developerConnection>
-	    <url>//depot/dev/cardhu/${env.P4_USERNAME}/IES/unified-persistence/</url>
+	    
 	</scm>
-	
+	 -->
 </project>
 
 
